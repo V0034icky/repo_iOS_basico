@@ -1,0 +1,56 @@
+import Foundation
+
+let hello = "Hello, world!"
+
+//let se utiliza para indicar constantes
+//var se utiliza para indicar variables
+//var nombre = "cosas"//Implicito que es String
+//var nombre_2 : String = "Petra" //Explicito que es string
+
+//var edad: Int? = nil
+let edad_1: Int = 50
+let edad_2 = 505.4
+print("el tipo de edad_2 es \(type(of: edad_2))")
+
+let mentira: Bool = false
+let verdad = true
+print("el tipo de verdad es \(type(of: verdad))")
+
+let letrita: Char = a
+let letrota = 
+
+/*var edad: Int = 10
+let mayoria_de_edad = 0*/
+
+/*if(0.1 * 0.2 == 0.3)
+{
+ print("Si es cierto")
+}
+else
+{
+  print("No es cierto...")
+}
+
+//var edad_validad: Int = edad ?? 0
+
+var nombre: String? = nil
+
+print("El tipo de dato de mayoria_de_edad es \(type(of: mayoria_de_edad))")
+
+//var saludar_a: String = nombre ?? "Fulanito"
+
+var saludar_a: String = "Buenos días \(nombre ?? "Fulanito")"
+//imprime el buenos día y en caso de que no haya un nombre asignado, se va a imprimir Funalito
+
+/*if(edad > mayoria_de_edad)
+{
+  print("Si es mayor de edad")
+}
+else
+{ 
+  print("No es mayor de edad")
+}
+
+print(saludar_a) */
+
+var*/
